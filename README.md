@@ -9,7 +9,6 @@ A project Solution at [roadmap.sh](https://roadmap.sh/projects/unit-converter)
 - **Length Conversion**: Convert between millimeter, centimeter, meter, kilometer, inch, foot, yard, and mile
 - **Weight Conversion**: Convert between milligram, gram, kilogram, ounce, and pound
 - **Temperature Conversion**: Convert between Celsius, Fahrenheit, and Kelvin
-- **User-friendly Interface**: Clean and intuitive web interface
 - **Real-time Results**: Instant conversion results displayed on a separate page
 
 ## Project Structure
