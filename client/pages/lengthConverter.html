@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+
+    <style>
+      h3 {
+        display: inline-block;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+
+      .convertBtn-css {
+        margin-top: 20px;
+      }
+
+      
+    </style>
+    
+  </head>
+  <body>
+    <h2>Unit Converter</h2>
+    <div class="category-selection">
+     <a href="lengthConverter.html"><h3>Length</h3></a>
+      <a href="weightConverter.html"><h3 >Weight</h3></a> 
+      <a href="temperatureConverter.html"><h3>Temperature</h3></a>
+    
+
+    </div>
+    
+    </h3>
+    <p>Enter the Length to convert</p>
+    <input type="text" id="value" placeholder="Value" />
+
+    <p>Unit to Convert from</p>
+    <input type="text" id="from" placeholder="From Unit (e.g., meter)" />
+
+    <p>Unit to Convert to</p>
+    <input type="text" id="to" placeholder="To Unit (e.g., kilometer)" />
+    <div><button id="convertBtn" class="convertBtn-css">Convert</button></div>
+    
+    <div id="result"></div>
+
+    <script type="module" src="../script.js"></script>
+  </body>
+</html>
